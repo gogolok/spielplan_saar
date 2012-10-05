@@ -1,1 +1,2 @@
 "!https://secure.travis-ci.org/gogolok/spielplan_saar.png!":http://travis-ci.org/gogolok/spielplan_saar
+"!https://codeclimate.com/badge.png!":https://codeclimate.com/github/gogolok/spielplan_saar
