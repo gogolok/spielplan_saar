@@ -31,7 +31,7 @@ describe SpielplanSaar::TableParser do
           let(:third_entry) { result_object[2] }
 
           it { third_entry.position.should eq('3') }
-          it { third_entry.team.should eq('TV Merchweiler II') }
+          it { third_entry.team.should eq('HSG Spiesen/Elversberg I') }
         end
 
       end

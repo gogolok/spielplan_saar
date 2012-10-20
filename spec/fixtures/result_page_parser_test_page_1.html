@@ -1,30 +1,28 @@
-
-<!-- saved from url=(0106)http://www.verwaltung-spieltechnik.de/tabelle/ergebnisse/index.php?klassen_vorhanden=934&auswahl_saison=35 -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><script language="JavaScript">
+<script language='JavaScript'>
 <!--
 
 
 function kalender(datum, ebenen, feldname)
 {
-	var ziel = 'kalender_anzeigen.php3?datum=';
+  var ziel = 'kalender_anzeigen.php3?datum=';
 
-	for(i=1; i<= ebenen; i++)
-		ziel = '../' + ziel;	
+  for(i=1; i<= ebenen; i++)
+    ziel = '../' + ziel;  
 
-	ziel = ziel + datum;
-	ziel = ziel + '&feld_name=';
-	ziel = ziel + feldname;
-	
-	F1 = window.open(ziel,'Kalender','width=600,height=400,resizable=no,scrollbars=yes,screenX=0,screenY=0, status=yes');
-	window.F1.focus();
+  ziel = ziel + datum;
+  ziel = ziel + '&feld_name=';
+  ziel = ziel + feldname;
+  
+  F1 = window.open(ziel,'Kalender','width=600,height=400,resizable=no,scrollbars=yes,screenX=0,screenY=0, status=yes');
+  window.F1.focus();
 }
 //-->
 </script> 
 
 
 
-
-
+<html>
+<head>
 
 <script language="JavaScript">
 <!--
@@ -46,82 +44,82 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
 //-->
 </script>
 
-	
+  
 
 <title>Handballverband Saar</title>
 
 <meta name="author" content="internetFX">
 <!--
 
-	Webdesign von
-		internetFX
-		
-	Besuchen Sie unsere Internet-Seiten unter
-		http://www.internetFX.de
-		
-	oder senden Sie uns eine E-Mail unter
-		info@internetFX.de
+  Webdesign von
+    internetFX
+    
+  Besuchen Sie unsere Internet-Seiten unter
+    http://www.internetFX.de
+    
+  oder senden Sie uns eine E-Mail unter
+    info@internetFX.de
 
 
 //-->
 
-<link rel="stylesheet" type="text/css" href="./test_page_1_files/css_style.css">
+<link rel=stylesheet type='text/css' href='../css_style.css'>
 
 
 
-<style type="text/css"></style><script>window["_GOOG_TRANS_EXT_VER"] = "1";</script></head>
+</head>
 
 
 
 
-<body bgcolor="#FFFFFF" text="#000000" link="#0007C4" vlink="#0007C4" alink="#0007A2" marginheight="0" marginwidth="0" leftmargin="0" topmargin="0" background="./test_page_1_files/hg_leer.gif">
-<form method="post" action="http://www.verwaltung-spieltechnik.de/tabelle/ergebnisse/index.php" name="formular">
+<body bgcolor='#FFFFFF' text='#000000' link='#0007C4' vlink='#0007C4' alink='#0007A2' marginheight='0' marginwidth='0' leftmargin='0' topmargin='0' background='../../bilder/hg_leer.gif'>
+<form method="post" action="index.php" name="formular">
 
 <input type="hidden" name="auswahl_saison" value="$auswahl_saison">
-	
+  
 <table width="100%" height="100%" border="0" bordercolor="#00047C" cellspacing="0" cellpadding="0" align="center">
-<tbody><tr>
-	<td>
+<tr>
+  <td>
 
-	<table width="770" height="400" border="1" bordercolor="#00047C" cellspacing="0" cellpadding="0" align="center">
-	<tbody><tr>
-		<td height="30" bgcolor="#FFFFFF">&nbsp;&nbsp;<b>Ergebnisse</b>&nbsp;&nbsp;
-		<a href="http://www.verwaltung-spieltechnik.de/tabelle/spielplan/index.php?klassen_vorhanden=934&auswahl_saison=35" target="_self">Spielpläne</a>&nbsp;&nbsp;
-		
-		<select name="auswahl_saison" onchange="document.getElementById(&#39;formular&#39;).submit()">
-		
-		
-				<option value="22">Saison 2004/2005</option>
-				<option value="24">Saison 2005/2006</option>
-				<option value="28">Saison 2006/2007</option>
-				<option value="29">Saison 2007/2008</option>
-				<option value="31">Saison 2008/2009</option>
-				<option value="32">Saison 2009/2010</option>
-				<option value="33">Saison 2010/2011</option>
-				<option value="34">Saison 2011/2012</option>
-				<option value="35" selected="">Saison 2012/2013</option>		
-		</select>		
+  <table width="770" height="400" border="1" bordercolor="#00047C" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td height="30" bgcolor="#FFFFFF">&nbsp;&nbsp;<b>Ergebnisse</b>&nbsp;&nbsp;
+    <a href="../spielplan/index.php?klassen_vorhanden=934&auswahl_saison=35" target="_self">Spielpl&auml;ne</a>&nbsp;&nbsp;
+    
+    <select name="auswahl_saison" onchange="document.getElementById('formular').submit()">
+    
+    
+        <option value='22'>Saison 2004/2005</option>
+        <option value='24'>Saison 2005/2006</option>
+        <option value='28'>Saison 2006/2007</option>
+        <option value='29'>Saison 2007/2008</option>
+        <option value='31'>Saison 2008/2009</option>
+        <option value='32'>Saison 2009/2010</option>
+        <option value='33'>Saison 2010/2011</option>
+        <option value='34'>Saison 2011/2012</option>
+        <option value='35' selected>Saison 2012/2013</option>   
+    </select>   
 
-		</td>
-	</tr>
-	<tr bgcolor="#FFFFFF">
-		<td valign="top" id="logo_rechts_oben">
+    </td>
+  </tr>
+  <tr bgcolor="#FFFFFF">
+    <td valign="top" id="logo_rechts_oben">
+</form>
 
 
+<form method='post' action='tabelle_anzeigen.php3?klassen_vorhanden=934&auswahl_saison=35' name='formular'>
 
-<form method="post" action="http://www.verwaltung-spieltechnik.de/tabelle/ergebnisse/tabelle_anzeigen.php3?klassen_vorhanden=934&auswahl_saison=35" name="formular">
-
-	<input type="hidden" name="klassen_vorhanden" value="934">
-	<input type="hidden" name="klassen_aufstiegsplaetze" value="">
-	<input type="hidden" name="klassen_abstiegsplaetze" value=""><br><br>
-<table width="100%" height="100%" border="0" bordercolor="#00047C" cellspacing="0" cellpadding="6" align="center">
-<tbody><tr> 
-	<td height="40" valign="bottom"><b>Spielergebnisse der Saison Saison 2012/2013</b></td>
+  <input type='hidden' name='klassen_vorhanden' value='934'>
+  <input type='hidden' name='klassen_aufstiegsplaetze' value=''>
+  <input type='hidden' name='klassen_abstiegsplaetze' value=''><br><br>
+<table width='100%' height='100%' border='0' bordercolor='#00047C' cellspacing='0' cellpadding='6' align='center'>
+<tr> 
+  <td height='40' valign='bottom'><b>Spielergebnisse der Saison Saison 2012/2013</b></td>
 </tr>
 <tr>
-	<td valign="top"><table width="40%" border="0" cellspacing="0" cellpadding="4" align="" bordercolorlight="#F7F3F7" bordercolordark="#F7F3F7">
-<tbody><tr>
-	<td colspan="2">
+  <td valign='top'><table width='40%' border='0' cellspacing='0' cellpadding='4' align='' bordercolorlight='#F7F3F7' bordercolordark='#F7F3F7'>
+<tr>
+  <td colspan='2'>
 
 
 
@@ -129,288 +127,273 @@ function MM_jumpMenuGo(selName,targ,restore){ //v3.0
 
 
 
-<select name="select" onchange="MM_jumpMenu(&#39;self&#39;,this,0);MM_jumpMenuGo(&#39;select&#39;,&#39;self&#39;,0)">
+<select name="select" onChange="MM_jumpMenu('self',this,0);MM_jumpMenuGo('select','self',0)">
  
 
-				<option value="index.php?klassen_vorhanden=936&amp;auswahl_saison=35">Saarlandliga Männer</option>
-				<option value="index.php?klassen_vorhanden=954&amp;auswahl_saison=35">Saarlandliga Frauen</option>
-				<option value="index.php?klassen_vorhanden=935&amp;auswahl_saison=35">Verbandsliga Saar Männer</option>
-				<option value="index.php?klassen_vorhanden=951&amp;auswahl_saison=35">Saarlandliga männliche Jugend A</option>
-				<option value="index.php?klassen_vorhanden=919&amp;auswahl_saison=35">Saarlandliga weibliche Jugend A</option>
-				<option value="index.php?klassen_vorhanden=950&amp;auswahl_saison=35">Saarlandliga männliche Jugend B</option>
-				<option value="index.php?klassen_vorhanden=921&amp;auswahl_saison=35">Saarlandliga weibliche Jugend B</option>
-				<option value="index.php?klassen_vorhanden=949&amp;auswahl_saison=35">Saarlandliga männliche Jugend C</option>
-				<option value="index.php?klassen_vorhanden=920&amp;auswahl_saison=35">Saarlandliga weibliche Jugend C</option>
-				<option value="index.php?klassen_vorhanden=952&amp;auswahl_saison=35">Saarlandliga männliche Jugend D</option>
-				<option value="index.php?klassen_vorhanden=934&amp;auswahl_saison=35" selected="">Bezirksliga Ost Männer</option>
-				<option value="index.php?klassen_vorhanden=940&amp;auswahl_saison=35">Bezirksliga West Männer</option>
-				<option value="index.php?klassen_vorhanden=953&amp;auswahl_saison=35">Bezirksliga Ost Frauen</option>
-				<option value="index.php?klassen_vorhanden=942&amp;auswahl_saison=35">Bezirksliga West Frauen</option>
-				<option value="index.php?klassen_vorhanden=955&amp;auswahl_saison=35">A - Liga Ost Frauen</option>
-				<option value="index.php?klassen_vorhanden=943&amp;auswahl_saison=35">A - Liga West Frauen Staffel Nord</option>
-				<option value="index.php?klassen_vorhanden=944&amp;auswahl_saison=35">A - Liga West Frauen Staffel Süd</option>
-				<option value="index.php?klassen_vorhanden=933&amp;auswahl_saison=35">A - Liga Ost Männer</option>
-				<option value="index.php?klassen_vorhanden=938&amp;auswahl_saison=35">A - Liga West Männer</option>
-				<option value="index.php?klassen_vorhanden=932&amp;auswahl_saison=35">B - Liga Ost Männer Staffel I</option>
-				<option value="index.php?klassen_vorhanden=931&amp;auswahl_saison=35">B - Liga Ost Männer Staffel II</option>
-				<option value="index.php?klassen_vorhanden=939&amp;auswahl_saison=35">B - Liga West Männer Staffel Nord</option>
-				<option value="index.php?klassen_vorhanden=941&amp;auswahl_saison=35">B - Liga West Männer Staffel Süd</option>
-				<option value="index.php?klassen_vorhanden=945&amp;auswahl_saison=35">Männliche Jugend A</option>
-				<option value="index.php?klassen_vorhanden=927&amp;auswahl_saison=35">Weibliche Jugend A</option>
-				<option value="index.php?klassen_vorhanden=948&amp;auswahl_saison=35">Männliche Jugend B Ost</option>
-				<option value="index.php?klassen_vorhanden=923&amp;auswahl_saison=35">Männliche Jugend B West</option>
-				<option value="index.php?klassen_vorhanden=926&amp;auswahl_saison=35">Weibliche Jugend B Ost</option>
-				<option value="index.php?klassen_vorhanden=928&amp;auswahl_saison=35">Weibliche Jugend B West</option>
-				<option value="index.php?klassen_vorhanden=947&amp;auswahl_saison=35">Männliche Jugend C Ost</option>
-				<option value="index.php?klassen_vorhanden=946&amp;auswahl_saison=35">Männliche Jugend C  Mitte</option>
-				<option value="index.php?klassen_vorhanden=922&amp;auswahl_saison=35">Männliche Jugend C West</option>
-				<option value="index.php?klassen_vorhanden=924&amp;auswahl_saison=35">Weibliche Jugend C Ost</option>
-				<option value="index.php?klassen_vorhanden=925&amp;auswahl_saison=35">Weibliche Jugend C West</option>
-				<option value="index.php?klassen_vorhanden=912&amp;auswahl_saison=35">Männliche Jugend D Ost</option>
-				<option value="index.php?klassen_vorhanden=911&amp;auswahl_saison=35">Männliche Jugend D Mitte</option>
-				<option value="index.php?klassen_vorhanden=937&amp;auswahl_saison=35">Männliche Jugend D West</option>
-				<option value="index.php?klassen_vorhanden=917&amp;auswahl_saison=35">Weibliche Jugend D Ost</option>
-				<option value="index.php?klassen_vorhanden=929&amp;auswahl_saison=35">Weibliche Jugend D West</option>
-				<option value="index.php?klassen_vorhanden=913&amp;auswahl_saison=35">Männliche Jugend E Ost Staffel Nord</option>
-				<option value="index.php?klassen_vorhanden=914&amp;auswahl_saison=35">Männliche Jugend E Ost Staffel Süd</option>
-				<option value="index.php?klassen_vorhanden=910&amp;auswahl_saison=35">Männliche Jugend E West Staffel Nord</option>
-				<option value="index.php?klassen_vorhanden=909&amp;auswahl_saison=35">Männliche Jugend E West Staffel Süd</option>
-				<option value="index.php?klassen_vorhanden=916&amp;auswahl_saison=35">Weibliche Jugend E Ost</option>
-				<option value="index.php?klassen_vorhanden=930&amp;auswahl_saison=35">Weibliche Jugend E West</option>
-				<option value="index.php?klassen_vorhanden=915&amp;auswahl_saison=35">gemischte Jugend F Ost</option>
-				<option value="index.php?klassen_vorhanden=908&amp;auswahl_saison=35">gemischte Jugend F West</option>
+        <option value='index.php?klassen_vorhanden=936&auswahl_saison=35'>Saarlandliga M?nner</option>
+        <option value='index.php?klassen_vorhanden=954&auswahl_saison=35'>Saarlandliga Frauen</option>
+        <option value='index.php?klassen_vorhanden=935&auswahl_saison=35'>Verbandsliga Saar M?nner</option>
+        <option value='index.php?klassen_vorhanden=951&auswahl_saison=35'>Saarlandliga m?nnliche Jugend A</option>
+        <option value='index.php?klassen_vorhanden=919&auswahl_saison=35'>Saarlandliga weibliche Jugend A</option>
+        <option value='index.php?klassen_vorhanden=950&auswahl_saison=35'>Saarlandliga m?nnliche Jugend B</option>
+        <option value='index.php?klassen_vorhanden=921&auswahl_saison=35'>Saarlandliga weibliche Jugend B</option>
+        <option value='index.php?klassen_vorhanden=949&auswahl_saison=35'>Saarlandliga m?nnliche Jugend C</option>
+        <option value='index.php?klassen_vorhanden=920&auswahl_saison=35'>Saarlandliga weibliche Jugend C</option>
+        <option value='index.php?klassen_vorhanden=952&auswahl_saison=35'>Saarlandliga m?nnliche Jugend D</option>
+        <option value='index.php?klassen_vorhanden=934&auswahl_saison=35' selected>Bezirksliga Ost M?nner</option>
+        <option value='index.php?klassen_vorhanden=940&auswahl_saison=35'>Bezirksliga West M?nner</option>
+        <option value='index.php?klassen_vorhanden=953&auswahl_saison=35'>Bezirksliga Ost Frauen</option>
+        <option value='index.php?klassen_vorhanden=942&auswahl_saison=35'>Bezirksliga West Frauen</option>
+        <option value='index.php?klassen_vorhanden=955&auswahl_saison=35'>A - Liga Ost Frauen</option>
+        <option value='index.php?klassen_vorhanden=943&auswahl_saison=35'>A - Liga West Frauen Staffel Nord</option>
+        <option value='index.php?klassen_vorhanden=944&auswahl_saison=35'>A - Liga West Frauen Staffel S?d</option>
+        <option value='index.php?klassen_vorhanden=933&auswahl_saison=35'>A - Liga Ost M?nner</option>
+        <option value='index.php?klassen_vorhanden=938&auswahl_saison=35'>A - Liga West M?nner</option>
+        <option value='index.php?klassen_vorhanden=932&auswahl_saison=35'>B - Liga Ost M?nner Staffel I</option>
+        <option value='index.php?klassen_vorhanden=931&auswahl_saison=35'>B - Liga Ost M?nner Staffel II</option>
+        <option value='index.php?klassen_vorhanden=939&auswahl_saison=35'>B - Liga West M?nner Staffel Nord</option>
+        <option value='index.php?klassen_vorhanden=941&auswahl_saison=35'>B - Liga West M?nner Staffel S?d</option>
+        <option value='index.php?klassen_vorhanden=945&auswahl_saison=35'>M?nnliche Jugend A</option>
+        <option value='index.php?klassen_vorhanden=927&auswahl_saison=35'>Weibliche Jugend A</option>
+        <option value='index.php?klassen_vorhanden=948&auswahl_saison=35'>M?nnliche Jugend B Ost</option>
+        <option value='index.php?klassen_vorhanden=923&auswahl_saison=35'>M?nnliche Jugend B West</option>
+        <option value='index.php?klassen_vorhanden=926&auswahl_saison=35'>Weibliche Jugend B Ost</option>
+        <option value='index.php?klassen_vorhanden=928&auswahl_saison=35'>Weibliche Jugend B West</option>
+        <option value='index.php?klassen_vorhanden=947&auswahl_saison=35'>M?nnliche Jugend C Ost</option>
+        <option value='index.php?klassen_vorhanden=946&auswahl_saison=35'>M?nnliche Jugend C  Mitte</option>
+        <option value='index.php?klassen_vorhanden=922&auswahl_saison=35'>M?nnliche Jugend C West</option>
+        <option value='index.php?klassen_vorhanden=924&auswahl_saison=35'>Weibliche Jugend C Ost</option>
+        <option value='index.php?klassen_vorhanden=925&auswahl_saison=35'>Weibliche Jugend C West</option>
+        <option value='index.php?klassen_vorhanden=912&auswahl_saison=35'>M?nnliche Jugend D Ost</option>
+        <option value='index.php?klassen_vorhanden=911&auswahl_saison=35'>M?nnliche Jugend D Mitte</option>
+        <option value='index.php?klassen_vorhanden=937&auswahl_saison=35'>M?nnliche Jugend D West</option>
+        <option value='index.php?klassen_vorhanden=917&auswahl_saison=35'>Weibliche Jugend D Ost</option>
+        <option value='index.php?klassen_vorhanden=929&auswahl_saison=35'>Weibliche Jugend D West</option>
+        <option value='index.php?klassen_vorhanden=913&auswahl_saison=35'>M?nnliche Jugend E Ost Staffel Nord</option>
+        <option value='index.php?klassen_vorhanden=914&auswahl_saison=35'>M?nnliche Jugend E Ost Staffel S?d</option>
+        <option value='index.php?klassen_vorhanden=910&auswahl_saison=35'>M?nnliche Jugend E West Staffel Nord</option>
+        <option value='index.php?klassen_vorhanden=909&auswahl_saison=35'>M?nnliche Jugend E West Staffel S?d</option>
+        <option value='index.php?klassen_vorhanden=916&auswahl_saison=35'>Weibliche Jugend E Ost</option>
+        <option value='index.php?klassen_vorhanden=930&auswahl_saison=35'>Weibliche Jugend E West</option>
+        <option value='index.php?klassen_vorhanden=915&auswahl_saison=35'>gemischte Jugend F Ost</option>
+        <option value='index.php?klassen_vorhanden=908&auswahl_saison=35'>gemischte Jugend F West</option>
         </select>
-	</td>
+  </font></td>
 </tr>
 
-</tbody></table><br><table width="100%" border="0" cellspacing="0" cellpadding="2" align="center" bordercolorlight="#F7F3F7" bordercolordark="#F7F3F7">
-<tbody><tr><td width="81%" colspan="2">Datum: 30.09.2012<br><br><table width="80%" border="1" cellspacing="0" cellpadding="4" align="" bordercolorlight="#F7F3F7" bordercolordark="#F7F3F7">
-				<tbody><tr bgcolor="">
-					<td align="left" width="30%"><font size="2">Datum - Uhrzeit</font></td>
-					<td align="left" width="60%"><font size="2">Spielpaarung</font></td>
-					<td align="left" width="10%"><font size="2">Ergebnis</font></td>
-				</tr>
-			<tr>
-				<td align="left"><font size="1">15.09.2012 14:30 Uhr</font></td>
-				<td align="left"><font size="1">MSG HF Illtal III&nbsp;-&nbsp;RW Schaumberg/Sotzweiler I</font></td>
-				<td align="center"><font size="1">26 : 27</font></td>
-			</tr>
-			<tr>
-				<td align="left"><font size="1">15.09.2012 18:00 Uhr</font></td>
-				<td align="left"><font size="1">HSG Spiesen/Elversberg I&nbsp;-&nbsp;SGH Sankt Ingbert II</font></td>
-				<td align="center"><font size="1">29 : 22</font></td>
-			</tr>
-			<tr>
-				<td align="left"><font size="1">15.09.2012 19:30 Uhr</font></td>
-				<td align="left"><font size="1">HWE Erbach/Waldmohr I&nbsp;-&nbsp;HSV Wemmetsweiler I</font></td>
-				<td align="center"><font size="1">35 : 30</font></td>
-			</tr>
-			<tr>
-				<td align="left"><font size="1">15.09.2012 19:30 Uhr</font></td>
-				<td align="left"><font size="1">SG Ommersheim/Aßweiler I&nbsp;-&nbsp;HSG DJK Nordsaar II</font></td>
-				<td align="center"><font size="1">36 : 22</font></td>
-			</tr>
-			<tr>
-				<td align="left"><font size="1">16.09.2012 19:00 Uhr</font></td>
-				<td align="left"><font size="1">SV 64 Zweibrücken III&nbsp;-&nbsp;HSG Bexbach/Höchen I</font></td>
-				<td align="center"><font size="1">21 : 36</font></td>
-			</tr>
-			<tr>
-				<td align="left"><font size="1">16.09.2012 20:15 Uhr</font></td>
-				<td align="left"><font size="1">HSV Wemmetsweiler II&nbsp;-&nbsp;TV Merchweiler II</font></td>
-				<td align="center"><font size="1">29 : 33</font></td>
-			</tr></tbody></table><br><table width="80%" border="1" cellspacing="0" cellpadding="4" align="" bordercolorlight="#F7F3F7" bordercolordark="#F7F3F7">
-				<tbody><tr bgcolor="">
-					<td align="left" width="30%"><font size="2">Datum - Uhrzeit</font></td>
-					<td align="left" width="60%"><font size="2">Spielpaarung</font></td>
-					<td align="left" width="10%"><font size="2">Ergebnis</font></td>
-				</tr>
-			<tr>
-				<td align="left"><font size="1">29.09.2012 17:30 Uhr</font></td>
-				<td align="left"><font size="1">TV Merchweiler II&nbsp;-&nbsp;SV 64 Zweibrücken III</font></td>
-				<td align="center"><font size="1">23 : 19</font></td>
-			</tr>
-			<tr>
-				<td align="left"><font size="1">29.09.2012 17:30 Uhr</font></td>
-				<td align="left"><font size="1">SGH Sankt Ingbert II&nbsp;-&nbsp;MSG HF Illtal III</font></td>
-				<td align="center"><font size="1">51 : 27</font></td>
-			</tr>
-			<tr>
-				<td align="left"><font size="1">30.09.2012 18:15 Uhr</font></td>
-				<td align="left"><font size="1">RW Schaumberg/Sotzweiler I&nbsp;-&nbsp;HWE Erbach/Waldmohr I</font></td>
-				<td align="center"><font size="1">- : -</font></td>
-			</tr>
-			<tr>
-				<td align="left"><font size="1">30.09.2012 19:00 Uhr</font></td>
-				<td align="left"><font size="1">HSG DJK Nordsaar II&nbsp;-&nbsp;HSV Wemmetsweiler II</font></td>
-				<td align="center"><font size="1">- : -</font></td>
-			</tr>
-			<tr>
-				<td align="left"><font size="1">30.09.2012 19:30 Uhr</font></td>
-				<td align="left"><font size="1">HSV Wemmetsweiler I&nbsp;-&nbsp;SG Ommersheim/Aßweiler I</font></td>
-				<td align="center"><font size="1">- : -</font></td>
-			</tr></tbody></table>
-	</td>
+</table><br><table width='100%' border='0' cellspacing='0' cellpadding='2' align='center' bordercolorlight='#F7F3F7' bordercolordark='#F7F3F7'>
+<tr><td width='81%' colspan='2'>Datum: 20.10.2012<br><br><table width='80%' border='1' cellspacing='0' cellpadding='4' align='' bordercolorlight='#F7F3F7' bordercolordark='#F7F3F7'>
+        <tr bgcolor=''>
+          <td align='left' width='30%'><font size='2'>Datum - Uhrzeit</font></td>
+          <td align='left' width='60%'><font size='2'>Spielpaarung</font></td>
+          <td align='left' width='10%'><font size='2'>Ergebnis</font></td>
+        </tr>
+      <tr>
+        <td align='left'><font size='1'>13.10.2012 17:30 Uhr</font></td>
+        <td align='left'><font size='1'>SGH Sankt Ingbert II&nbsp;-&nbsp;HSV Wemmetsweiler I</font></td>
+        <td align='center'><font size='1'>27 : 23</font></td>
+      </tr>
+      <tr>
+        <td align='left'><font size='1'>13.10.2012 20:00 Uhr</font></td>
+        <td align='left'><font size='1'>HSG Bexbach/H?chen I&nbsp;-&nbsp;HWE Erbach/Waldmohr I</font></td>
+        <td align='center'><font size='1'>31 : 32</font></td>
+      </tr>
+      <tr>
+        <td align='left'><font size='1'>14.10.2012 18:30 Uhr</font></td>
+        <td align='left'><font size='1'>HSV Wemmetsweiler II&nbsp;-&nbsp;SV 64 Zweibr?cken III</font></td>
+        <td align='center'><font size='1'>25 : 30</font></td>
+      </tr>
+      <tr>
+        <td align='left'><font size='1'>14.10.2012 19:00 Uhr</font></td>
+        <td align='left'><font size='1'>HSG DJK Nordsaar II&nbsp;-&nbsp;HSG Spiesen/Elversberg I</font></td>
+        <td align='center'><font size='1'>22 : 14</font></td>
+      </tr></table><br><table width='80%' border='1' cellspacing='0' cellpadding='4' align='' bordercolorlight='#F7F3F7' bordercolordark='#F7F3F7'>
+        <tr bgcolor=''>
+          <td align='left' width='30%'><font size='2'>Datum - Uhrzeit</font></td>
+          <td align='left' width='60%'><font size='2'>Spielpaarung</font></td>
+          <td align='left' width='10%'><font size='2'>Ergebnis</font></td>
+        </tr>
+      <tr>
+        <td align='left'><font size='1'>19.10.2012 18:10 Uhr</font></td>
+        <td align='left'><font size='1'>RW Schaumberg/Sotzweiler I&nbsp;-&nbsp;SG Ommersheim/A?weiler I</font></td>
+        <td align='center'><font size='1'>- : -</font></td>
+      </tr></table><br><table width='80%' border='1' cellspacing='0' cellpadding='4' align='' bordercolorlight='#F7F3F7' bordercolordark='#F7F3F7'>
+        <tr bgcolor=''>
+          <td align='left' width='30%'><font size='2'>Datum - Uhrzeit</font></td>
+          <td align='left' width='60%'><font size='2'>Spielpaarung</font></td>
+          <td align='left' width='10%'><font size='2'>Ergebnis</font></td>
+        </tr>
+      <tr>
+        <td align='left'><font size='1'>28.10.2012 16:00 Uhr</font></td>
+        <td align='left'><font size='1'>TV Merchweiler II&nbsp;-&nbsp;MSG HF Illtal III</font></td>
+        <td align='center'><font size='1'>- : -</font></td>
+      </tr>
+      <tr>
+        <td align='left'><font size='1'>28.10.2012 19:00 Uhr</font></td>
+        <td align='left'><font size='1'>HSG Bexbach/H?chen I&nbsp;-&nbsp;HSV Wemmetsweiler II</font></td>
+        <td align='center'><font size='1'>- : -</font></td>
+      </tr></table>
+  </td>
 </tr>
 <tr>
-	<td colspan="2"><p>&nbsp;<table width="80%" border="0" cellspacing="0" cellpadding="0" align="" bordercolorlight="#F7F3F7" bordercolordark="#F7F3F7">
-	<tbody><tr>
-			<td align="center"><a href="http://www.verwaltung-spieltechnik.de/tabelle/ergebnisse/counter.php?banner_id=3&anzeige_flag=1" target="_blank"><img src="./test_page_1_files/3.jpg" border="0"></a>&nbsp;</td>
-	</tr>
-	</tbody></table><br><br>
-			</p></td>
-		</tr>
-		<tr>
-			<td width="81%"><table width="100%" border="1" cellspacing="0" cellpadding="4" align="left" bordercolorlight="#F7F3F7" bordercolordark="#F7F3F7">
-		<tbody><tr bgcolor="#D6DBDE">
-			<td align="center" width="5%"><font size="2">Pos</font></td>
-			<td align="left" width="35%"><font size="2">Mannschaft</font></td>
-			<td align="center" width="5%"><font size="2">Spiele</font></td>
-			<td align="center" width="10%"><font size="2">Punkte</font></td>
-			<td align="center" width="10%"><font size="2">Tore</font></td>
-			<td align="center" width="10%"><font size="2">Differenz</font></td>
-		</tr>
-		<tr bgcolor="">
-			<td align="center"><font size="2">1</font></td>
-			<td align="left"><font size="2">HWE Erbach/Waldmohr I</font></td>
-			<td align="center"><font size="2">3</font></td>
-			<td align="center"><font size="2">6 : 0</font></td>
-			<td align="center"><font size="2">104 : 79</font></td>
-			<td align="center"><font size="2">25</font></td>
-		</tr>
-		<tr bgcolor="">
-			<td align="center"><font size="2">2</font></td>
-			<td align="left"><font size="2">SGH Sankt Ingbert II</font></td>
-			<td align="center"><font size="2">4</font></td>
-			<td align="center"><font size="2">6 : 2</font></td>
-			<td align="center"><font size="2">139 : 95</font></td>
-			<td align="center"><font size="2">44</font></td>
-		</tr>
-		<tr bgcolor="">
-			<td align="center"><font size="2">3</font></td>
-			<td align="left"><font size="2">TV Merchweiler II</font></td>
-			<td align="center"><font size="2">4</font></td>
-			<td align="center"><font size="2">6 : 2</font></td>
-			<td align="center"><font size="2">103 : 102</font></td>
-			<td align="center"><font size="2">1</font></td>
-		</tr>
-		<tr bgcolor="">
-			<td align="center"><font size="2">4</font></td>
-			<td align="left"><font size="2">HSG Spiesen/Elversberg I</font></td>
-			<td align="center"><font size="2">3</font></td>
-			<td align="center"><font size="2">5 : 1</font></td>
-			<td align="center"><font size="2">77 : 60</font></td>
-			<td align="center"><font size="2">17</font></td>
-		</tr>
-		<tr bgcolor="">
-			<td align="center"><font size="2">5</font></td>
-			<td align="left"><font size="2">SG Ommersheim/Aßweiler I</font></td>
-			<td align="center"><font size="2">3</font></td>
-			<td align="center"><font size="2">4 : 2</font></td>
-			<td align="center"><font size="2">92 : 76</font></td>
-			<td align="center"><font size="2">16</font></td>
-		</tr>
-		<tr bgcolor="">
-			<td align="center"><font size="2">6</font></td>
-			<td align="left"><font size="2">RW Schaumberg/Sotzweiler I</font></td>
-			<td align="center"><font size="2">3</font></td>
-			<td align="center"><font size="2">4 : 2</font></td>
-			<td align="center"><font size="2">70 : 76</font></td>
-			<td align="center"><font size="2">-6</font></td>
-		</tr>
-		<tr bgcolor="">
-			<td align="center"><font size="2">7</font></td>
-			<td align="left"><font size="2">HSG Bexbach/Höchen I</font></td>
-			<td align="center"><font size="2">2</font></td>
-			<td align="center"><font size="2">3 : 1</font></td>
-			<td align="center"><font size="2">59 : 44</font></td>
-			<td align="center"><font size="2">15</font></td>
-		</tr>
-		<tr bgcolor="">
-			<td align="center"><font size="2">8</font></td>
-			<td align="left"><font size="2">HSV Wemmetsweiler I</font></td>
-			<td align="center"><font size="2">3</font></td>
-			<td align="center"><font size="2">3 : 3</font></td>
-			<td align="center"><font size="2">85 : 88</font></td>
-			<td align="center"><font size="2">-3</font></td>
-		</tr>
-		<tr bgcolor="">
-			<td align="center"><font size="2">9</font></td>
-			<td align="left"><font size="2">HSG DJK Nordsaar II</font></td>
-			<td align="center"><font size="2">3</font></td>
-			<td align="center"><font size="2">1 : 5</font></td>
-			<td align="center"><font size="2">68 : 83</font></td>
-			<td align="center"><font size="2">-15</font></td>
-		</tr>
-		<tr bgcolor="">
-			<td align="center"><font size="2">10</font></td>
-			<td align="left"><font size="2">HSV Wemmetsweiler II</font></td>
-			<td align="center"><font size="2">2</font></td>
-			<td align="center"><font size="2">0 : 4</font></td>
-			<td align="center"><font size="2">48 : 71</font></td>
-			<td align="center"><font size="2">-23</font></td>
-		</tr>
-		<tr bgcolor="">
-			<td align="center"><font size="2">11</font></td>
-			<td align="left"><font size="2">SV 64 Zweibrücken III</font></td>
-			<td align="center"><font size="2">4</font></td>
-			<td align="center"><font size="2">0 : 8</font></td>
-			<td align="center"><font size="2">85 : 115</font></td>
-			<td align="center"><font size="2">-30</font></td>
-		</tr>
-		<tr bgcolor="">
-			<td align="center"><font size="2">12</font></td>
-			<td align="left"><font size="2">MSG HF Illtal III</font></td>
-			<td align="center"><font size="2">4</font></td>
-			<td align="center"><font size="2">0 : 8</font></td>
-			<td align="center"><font size="2">107 : 148</font></td>
-			<td align="center"><font size="2">-41</font></td>
-		</tr>
-		
-		</tbody></table>
-		</td>
-		<td valign="top" width="19%"><table width="80" border="0" cellspacing="0" cellpadding="2" align="center" bordercolorlight="#F7F3F7" bordercolordark="#F7F3F7">
-			<tbody><tr>
-				<td align="left" width="80" colspan="2"><b>Legende</b></td>
-			</tr>
-			<tr>
-				<td height="1" colspan="2" bgcolor="#000000"></td>
-			</tr>
-			<tr>
-				<td height="10"></td>
-			</tr>
-			<tr>
-				<td align="left" bgcolor="#98fb98" width="25"></td>
-				<td align="left" width="55"><font size="1">Aufstiegsplatz</font></td>
-			</tr>
-			<tr>
-				<td align="left" bgcolor="#ffe4e1" width="25">&nbsp;</td>
-				<td align="left" width="55"><font size="1">Abstiegsplatz</font></td>
-			</tr>
-			<tr>
-				<td height="10"></td>
-			</tr>
-			<tr>
-				<td><a href="http://www.verwaltung-spieltechnik.de/tabelle/ergebnisse/tabelle_drucken.php?klassen_id=934" target="_blank"><img width="25" src="./test_page_1_files/print.gif" border="0" alt="Tabelle ausdrucken"></a></td>
-				<td><a href="http://www.verwaltung-spieltechnik.de/tabelle/ergebnisse/tabelle_drucken.php?klassen_id=934" target="_blank">Ausdrucken</a></td>
-			</tr>
-			</tbody></table>
-	
-		</td>
-	</tr>
-	<tr>
-		<td colspan="2"><p>&nbsp;<table width="80%" border="0" cellspacing="0" cellpadding="0" align="" bordercolorlight="#F7F3F7" bordercolordark="#F7F3F7">
-	<tbody><tr>
-	</tr>
-	</tbody></table>
-		</p></td></tr>
-		</tbody></table>
+  <td colspan='2'><p>&nbsp;<table width='80%' border='0' cellspacing='0' cellpadding='0' align='' bordercolorlight='#F7F3F7' bordercolordark='#F7F3F7'>
+  <tr>
+      <td align='center'><a href='counter.php?banner_id=3&anzeige_flag=1' target='_blank'><img src='../../bilder_werbebanner/3.jpg' border='0'></a>&nbsp;</td>
+  </tr>
+  </table><br><br>
+      </td>
+    </tr>
+    <tr>
+      <td width='81%'><table width='100%' border='1' cellspacing='0' cellpadding='4' align='left' bordercolorlight='#F7F3F7' bordercolordark='#F7F3F7'>
+    <tr bgcolor='#D6DBDE'>
+      <td align='center' width='5%'><font size='2'>Pos</font></td>
+      <td align='left' width='35%'><font size='2'>Mannschaft</font></td>
+      <td align='center' width='5%'><font size='2'>Spiele</font></td>
+      <td align='center' width='10%'><font size='2'>Punkte</font></td>
+      <td align='center' width='10%'><font size='2'>Tore</font></td>
+      <td align='center' width='10%'><font size='2'>Differenz</font></td>
+    </tr>
+    <tr bgcolor=''>
+      <td align='center'><font size='2'>1</font></td>
+      <td align='left'><font size='2'>SGH Sankt Ingbert II</font></td>
+      <td align='center'><font size='2'>5</font></td>
+      <td align='center'><font size='2'>8 : 2</font></td>
+      <td align='center'><font size='2'>166 : 118</font></td>
+      <td align='center'><font size='2'>48</font></td>
+    </tr>
+    <tr bgcolor=''>
+      <td align='center'><font size='2'>2</font></td>
+      <td align='left'><font size='2'>HWE Erbach/Waldmohr I</font></td>
+      <td align='center'><font size='2'>5</font></td>
+      <td align='center'><font size='2'>8 : 2</font></td>
+      <td align='center'><font size='2'>160 : 142</font></td>
+      <td align='center'><font size='2'>18</font></td>
+    </tr>
+    <tr bgcolor=''>
+      <td align='center'><font size='2'>3</font></td>
+      <td align='left'><font size='2'>HSG Spiesen/Elversberg I</font></td>
+      <td align='center'><font size='2'>5</font></td>
+      <td align='center'><font size='2'>7 : 3</font></td>
+      <td align='center'><font size='2'>126 : 107</font></td>
+      <td align='center'><font size='2'>19</font></td>
+    </tr>
+    <tr bgcolor=''>
+      <td align='center'><font size='2'>4</font></td>
+      <td align='left'><font size='2'>HSV Wemmetsweiler I</font></td>
+      <td align='center'><font size='2'>6</font></td>
+      <td align='center'><font size='2'>7 : 5</font></td>
+      <td align='center'><font size='2'>175 : 166</font></td>
+      <td align='center'><font size='2'>9</font></td>
+    </tr>
+    <tr bgcolor=''>
+      <td align='center'><font size='2'>5</font></td>
+      <td align='left'><font size='2'>HSG DJK Nordsaar II</font></td>
+      <td align='center'><font size='2'>6</font></td>
+      <td align='center'><font size='2'>7 : 5</font></td>
+      <td align='center'><font size='2'>155 : 152</font></td>
+      <td align='center'><font size='2'>3</font></td>
+    </tr>
+    <tr bgcolor=''>
+      <td align='center'><font size='2'>6</font></td>
+      <td align='left'><font size='2'>SG Ommersheim/A?weiler I</font></td>
+      <td align='center'><font size='2'>5</font></td>
+      <td align='center'><font size='2'>6 : 4</font></td>
+      <td align='center'><font size='2'>118 : 112</font></td>
+      <td align='center'><font size='2'>6</font></td>
+    </tr>
+    <tr bgcolor=''>
+      <td align='center'><font size='2'>7</font></td>
+      <td align='left'><font size='2'>RW Schaumberg/Sotzweiler I</font></td>
+      <td align='center'><font size='2'>5</font></td>
+      <td align='center'><font size='2'>6 : 4</font></td>
+      <td align='center'><font size='2'>128 : 131</font></td>
+      <td align='center'><font size='2'>-3</font></td>
+    </tr>
+    <tr bgcolor=''>
+      <td align='center'><font size='2'>8</font></td>
+      <td align='left'><font size='2'>TV Merchweiler II</font></td>
+      <td align='center'><font size='2'>5</font></td>
+      <td align='center'><font size='2'>6 : 4</font></td>
+      <td align='center'><font size='2'>128 : 137</font></td>
+      <td align='center'><font size='2'>-9</font></td>
+    </tr>
+    <tr bgcolor=''>
+      <td align='center'><font size='2'>9</font></td>
+      <td align='left'><font size='2'>HSG Bexbach/H?chen I</font></td>
+      <td align='center'><font size='2'>4</font></td>
+      <td align='center'><font size='2'>5 : 3</font></td>
+      <td align='center'><font size='2'>124 : 99</font></td>
+      <td align='center'><font size='2'>25</font></td>
+    </tr>
+    <tr bgcolor=''>
+      <td align='center'><font size='2'>10</font></td>
+      <td align='left'><font size='2'>SV 64 Zweibr?cken III</font></td>
+      <td align='center'><font size='2'>6</font></td>
+      <td align='center'><font size='2'>2 : 10</font></td>
+      <td align='center'><font size='2'>148 : 176</font></td>
+      <td align='center'><font size='2'>-28</font></td>
+    </tr>
+    <tr bgcolor=''>
+      <td align='center'><font size='2'>11</font></td>
+      <td align='left'><font size='2'>HSV Wemmetsweiler II</font></td>
+      <td align='center'><font size='2'>5</font></td>
+      <td align='center'><font size='2'>0 : 10</font></td>
+      <td align='center'><font size='2'>95 : 131</font></td>
+      <td align='center'><font size='2'>-36</font></td>
+    </tr>
+    <tr bgcolor=''>
+      <td align='center'><font size='2'>12</font></td>
+      <td align='left'><font size='2'>MSG HF Illtal III</font></td>
+      <td align='center'><font size='2'>5</font></td>
+      <td align='center'><font size='2'>0 : 10</font></td>
+      <td align='center'><font size='2'>130 : 182</font></td>
+      <td align='center'><font size='2'>-52</font></td>
+    </tr>
+    </td></tr>
+    </table>
+    </td>
+    <td valign='top' width='19%'><table width='80' border='0' cellspacing='0' cellpadding='2' align='center' bordercolorlight='#F7F3F7' bordercolordark='#F7F3F7'>
+      <tr>
+        <td align='left' width='80' colspan='2'><b>Legende</b></td>
+      </tr>
+      <tr>
+        <td height='1' colspan='2' bgcolor='#000000'></td>
+      </tr>
+      <tr>
+        <td height='10'></td>
+      </tr>
+      <tr>
+        <td align='left' bgcolor='#98fb98' width='25'></td>
+        <td align='left' width='55'><font size='1'>Aufstiegsplatz</font></td>
+      </tr>
+      <tr>
+        <td align='left' bgcolor='#ffe4e1' width='25'>&nbsp;</td>
+        <td align='left' width='55'><font size='1'>Abstiegsplatz</font></td>
+      </tr>
+      <tr>
+        <td height='10'></td>
+      </tr>
+      <tr>
+        <td><a href='tabelle_drucken.php?klassen_id=934' target='_blank'><img width='25' src='../../bilder/print.gif' border='0' alt='Tabelle ausdrucken'></a></td>
+        <td><a href='tabelle_drucken.php?klassen_id=934' target='_blank'>Ausdrucken</a></td>
+      </tr>
+      </table>
+  
+    </td>
+  </tr>
+  <tr>
+    <td colspan='2'><p>&nbsp;<table width='80%' border='0' cellspacing='0' cellpadding='0' align='' bordercolorlight='#F7F3F7' bordercolordark='#F7F3F7'>
+  <tr>
+  </tr>
+  </table>
+    </td></tr>
+    </table>
+</form>
+</table>
 
-</td></tr></tbody></table>
 
-
-</form></td></tr></tbody></table>
-<table width="770" align="center"><tbody><tr><td>&nbsp;</td><td align="right"><a href="http://www.internetfx.de/" target="_blank"><font size="1" color="#AAAAAA">powered by InternetFX</font></a></td></tr></tbody></table>
-</td></tr></tbody></table>
-
-</form></body></html>
+</td></tr></table>
+<table width="770" align="center"><tr><td>&nbsp;</td><td align="right"><a href="http://www.internetfx.de" target="_blank"><font size="1" color="#AAAAAA">powered by InternetFX</font></a></td></tr></table>
+</td></tr></table>
+</body>
+</html>

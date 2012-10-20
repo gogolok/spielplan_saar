@@ -1,6 +1,7 @@
 require "spec_helper"
 require_relative "../lib/spielplan_saar/table_entry"
 require_relative "../lib/spielplan_saar/result_page_parser"
+require_relative "../lib/spielplan_saar/table_parser"
 
 describe SpielplanSaar::ResultPageParser do
 

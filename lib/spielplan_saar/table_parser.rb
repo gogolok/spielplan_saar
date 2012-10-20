@@ -21,7 +21,7 @@ module SpielplanSaar
     end
 
     def table_node
-      @table_node ||= doc.xpath('//html/body/form/table/tbody/tr/td/table/tbody/tr/td[@id="logo_rechts_oben"]/form/table/tbody/tr/td/table/tbody/tr/td/table')[-3]
+      @table_node ||= doc.xpath('//*[@id="logo_rechts_oben"]/form/table/tr/td/table/tr/td/table')[-3]
     end
 
     def table_row_nodes
